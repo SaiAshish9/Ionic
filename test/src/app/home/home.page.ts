@@ -9,4 +9,9 @@ export class HomePage {
 
   constructor() {}
 
+  text=''
+  onChange(){
+  this.text='abcd'
+  }
+
 }
